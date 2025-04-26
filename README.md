@@ -24,10 +24,10 @@ structure: |
   ├── .vscode/               # VSCode project settings (optional)
   └── README.md
 
-build: |
+build: 
   make
 
-run: |
+run: 
   ./bin/Simulator
 
 notes:
