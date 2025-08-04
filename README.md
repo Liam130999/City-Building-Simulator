@@ -1,4 +1,4 @@
-# 🏙️ City-Building Simulator
+# City-Building Simulator
 
 A modular, object-oriented city-building simulator written in modern C++.
 
@@ -6,36 +6,36 @@ Simulate post-war reconstruction across various settlements using customizable p
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🧱 Modular architecture — clean separation between core entities (Plans, Facilities, Settlements)
-- 🧠 Selection Policies — choose how your city evolves: `Naive`, `Balanced`, `Economy`, `Sustainability`
-- 🧩 Manual memory management — uses deep copies, destructors, and cloneable actions (Rule of 5)
-- 🛠️ Command-based simulation — interactively build, simulate, and analyze urban development
+- Modular architecture — clean separation between core entities (Plans, Facilities, Settlements)
+- Selection Policies — choose how your city evolves: `Naive`, `Balanced`, `Economy`, `Sustainability`
+- Manual memory management — uses deep copies, destructors, and cloneable actions (Rule of 5)
+- Command-based simulation — interactively build, simulate, and analyze urban development
 
 ---
 
-## 🛠️ Build & Run
+## Build & Run
 
-### 🔧 Build
+### Build
 
 ```bash
 make
 ```
 
-This compiles all source files into `./bin/simulation`.
+This compiles all source files into `./bin/main`.
 
-### ▶️ Run
+### Run
 
 ```bash
-./bin/simulation config_file.txt
+./bin/main config_file.txt
 ```
 
 The simulation will start and wait for interactive user commands.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -43,16 +43,15 @@ The simulation will start and wait for interactive user commands.
 ├── bin/                   # Compiled binary goes here
 ├── include/               # Header files (.h)
 ├── src/                   # Source files (.cpp)
-├── .devcontainer/         # Docker support (optional)
 ├── .vscode/               # VSCode settings (optional)
 └── README.md
 ```
 
 ---
 
-## 🧪 Example Session
+## Example Session
 
-### 📄 Example Config (`config_file.txt`)
+### Example Config (`config_file.txt`)
 ```txt
 settlement KfarSPL 0
 settlement KiryatSPL 2
@@ -65,7 +64,7 @@ plan KfarSPL eco
 plan KiryatSPL bal
 ```
 
-### ⌨️ User Interaction
+### User Interaction
 
 ```txt
 The simulation has started
@@ -80,7 +79,7 @@ planStatus 2
 close
 ```
 
-### 📊 Sample Output
+### Sample Output
 
 ```txt
 PlanID: 2
@@ -92,7 +91,7 @@ EnvironmentScore: 1
 
 ---
 
-## 🧠 Core Concepts
+## Core Concepts
 
 | Concept        | Description |
 |----------------|-------------|
@@ -106,7 +105,7 @@ EnvironmentScore: 1
 
 ---
 
-## 🔄 Supported Commands
+## Supported Commands
 
 | Command                        | Description |
 |-------------------------------|-------------|
@@ -122,7 +121,7 @@ EnvironmentScore: 1
 
 ---
 
-## 🧰 Technologies
+## Technologies
 
 - **C++11**
 - `Makefile`-based build system
@@ -131,21 +130,10 @@ EnvironmentScore: 1
 
 ---
 
-## 🧼 Notes
+## Notes
 
 - Written with modern C++ best practices
 - Designed to run on Linux-based university lab machines
 - Avoids memory leaks using deep copies and destructors
 - Suitable for academic evaluation and simulation-based logic testing
 
----
-
-## 📘 License
-
-MIT (Add your own license file if needed)
-
----
-
-## ✨ Contributors
-
-Built with ❤️ by university students in the [Systems Programming] course.
