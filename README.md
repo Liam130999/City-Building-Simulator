@@ -12,7 +12,6 @@ features:
 technologies:
   - C++
   - Makefile
-  - STL
 
 structure: |
   .
@@ -28,8 +27,7 @@ build:
   make
 
 run: 
-  ./bin/Simulator
+  ./bin/main config_file.txt
 
 notes:
-  - Developed using VSCode + Docker devcontainers.
   - Written with modern C++ practices.
