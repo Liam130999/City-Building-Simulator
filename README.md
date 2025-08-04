@@ -2,16 +2,16 @@
 
 A modular, object-oriented city-building simulator written in modern C++.
 
-Simulate post-war reconstruction across various settlements using customizable plans, selection policies, and facilities — all managed with precise memory handling following the Rule of 5.
+Simulate post-war reconstruction across various settlements using customizable plans, selection policies, and facilities - all managed with precise memory handling following the Rule of 5.
 
 ---
 
 ## Features
 
-- Modular architecture — clean separation between core entities (Plans, Facilities, Settlements)
-- Selection Policies — choose how your city evolves: `Naive`, `Balanced`, `Economy`, `Sustainability`
-- Manual memory management — uses deep copies, destructors, and cloneable actions (Rule of 5)
-- Command-based simulation — interactively build, simulate, and analyze urban development
+- Modular architecture - clean separation between core entities (Plans, Facilities, Settlements)
+- Selection Policies - choose how your city evolves: `Naive`, `Balanced`, `Economy`, `Sustainability`
+- Manual memory management - uses deep copies, destructors, and cloneable actions (Rule of 5)
+- Command-based simulation - interactively build, simulate, and analyze urban development
 
 ---
 
