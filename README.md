@@ -111,7 +111,7 @@ EnvironmentScore: 1
 |-------------------------------|-------------|
 | `step <N>`                    | Simulate N time units |
 | `plan <settlement> <policy>` | Add a new plan |
-| `facility <name> ...`        | Add a new facility type |
+| `facility <name> <category> <price> <lifeq> <eco> <env>`| Add a new facility type |
 | `settlement <name> <type>`  | Add a new settlement |
 | `planStatus <id>`           | Show status of a plan |
 | `changePolicy <id> <type>` | Change plan selection strategy |
